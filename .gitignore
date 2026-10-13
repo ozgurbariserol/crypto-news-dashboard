@@ -1,0 +1,27 @@
+# .NET
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.log
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+secrets.json
+
+# Database data / editor / OS
+postgres-storage/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
